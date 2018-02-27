@@ -4,7 +4,8 @@ AMP-MAG
 |-------------------------------------------------------------------------------	|----------------------------------------	|
 | Contain a top-level,tag ( is accepted as well).                               	| Identifies the page as AMP content.    	|
 | Contain,and,tags.                                                             	| Optional in HTML but not in AMP.       	|
-| Contain a,tag as the first child of their,tag.                                	| Identifies the encoding for the page.  	|
+| Contain a,tag as the 
+first child of their,tag.                                	| Identifies the encoding for the page.  	|
 | Contain a <script async 
 src="https://cdn.ampproject.org/v0.js">
 </script> tag as the second child of their <head>tag  	                          | Includes and loads the AMP JS library. 	|
