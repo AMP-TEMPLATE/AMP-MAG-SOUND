@@ -20,12 +20,14 @@ AMP-MAG
   
 
   
-  <style amp-boilerplate>body {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;	-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;	-moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;	-ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;	animation: -amp-start 8s steps(1, end) 0s 1 normal both<br>
-}<br><br>
+ ``` <style amp-boilerplate>body {
+	-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
+	-moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
+	-ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
+	animation: -amp-start 8s steps(1, end) 0s 1 normal both<br>
+}
+```
+
 
 ``` @-webkit-keyframes -amp-start {
 	from {
