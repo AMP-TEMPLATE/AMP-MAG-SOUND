@@ -16,9 +16,12 @@ AMP-MAG
 | Contain a <meta name="viewport" content="width=device-width,minimum-scale=1"> tag inside their `<head>` tag. It's also recommended to include initial-scale=1 | Specifies a responsive viewport. Learn more in `Create Responsive AMP Pages`.|
 | Contain the AMP boilerplate code in their `<head> tag.`  |  CSS boilerplate to initially hide the content until AMP JS is loaded. | 
   
-<br />
+<br />  
 
-### Optional metadata  
+**USE HTTPS** — When creating AMP pages and content, you should strongly consider using the HTTPS protocol (vs. HTTP). Although, HTTPS is not required for the AMP document itself or for images and fonts, there are many AMP features that require HTTPS (e.g., video, iframes, and more). To ensure your AMP pages take full advantage of all AMP features, use the HTTPS protocol. You can learn more about HTTPS in ["Why HTTPS Matters"](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https).  
+
+<br />  
+## Optional metadata  
 
 In addition to the bare requirements, our sample also includes a Schema.org definition in the head, which isn’t a strict requirement for AMP, but it is a requirement to get your content distributed in certain places (for example, in the Google Search top stories carousel).
 
