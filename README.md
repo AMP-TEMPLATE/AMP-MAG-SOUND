@@ -2,7 +2,7 @@ AMP-MAG
 
 |RULE                                                     	                      | DESCRIPTION                     	|
 |-------------------------------------------------------------------------------------|----------------------------------------	|
-| Start with the '<!doctype html>' doctype.                                           |  Standard for HTML.  	                | 
+| Start with the <span style="background-color:grey"><!doctype html> doctype.         |  Standard for HTML.  	                | 
 | Contain a top-level '<html ⚡>' tag <br />(<html amp> is accepted as well)          |  Identifies the page as AMP content.    |
 | Contain '<head>' and '<body>' tags.                                                 | Optional in HTML but not in AMP.        |
 | Contain a <meta charset="utf-8"> tag as the first<br />child of their <head> tag    | Identifies the encoding for the page    |
