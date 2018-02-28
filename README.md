@@ -21,10 +21,7 @@ AMP-MAG
  ``` 
  <style amp-boilerplate>
  	body {
-	  -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
-	  -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
-	  -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
-	  animation: -amp-start 8s steps(1, end) 0s 1 normal both<br>
+		
         }
 ```
 
@@ -37,7 +34,7 @@ AMP-MAG
 		visibility: visible
 	}
 }
-```
+
 
 @-moz-keyframes -amp-start {
 	from {
@@ -85,3 +82,4 @@ AMP-MAG
 }
 </style>
 </noscript>
+```
