@@ -24,7 +24,7 @@ In addition to the bare requirements, our sample also includes a Schema.org defi
 
 ### READ ON — Visit these resources to learn more:  
 
-* [Getting Started with AMP on Google Search] https://developers.google.com/search/docs/guides/enhance-amp - learn to prepare your AMP pages for Google Search.
+* [Getting Started with AMP on Google Search](https://developers.google.com/search/docs/guides/enhance-amp) - learn to prepare your AMP pages for Google Search.
 * Metadata samples - learn more about all the metadata you’ll need in various other places (e.g., Twitter).  
 
 <br /><br />
