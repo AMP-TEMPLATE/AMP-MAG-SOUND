@@ -16,19 +16,18 @@ AMP-MAG
 | Contain a <meta name="viewport" content="width=device-width,minimum-scale=1"> tag inside their `<head>` tag. It's also recommended to include initial-scale=1 | Specifies a responsive viewport. Learn more in `Create Responsive AMP Pages`.|
 | Contain the AMP boilerplate code in their `<head> tag.`  |  CSS boilerplate to initially hide the content until AMP JS is loaded. | 
   
-<br /><br />
+<br />
 
-# Optional metadata  
+### Optional metadata  
 
 In addition to the bare requirements, our sample also includes a Schema.org definition in the head, which isn’t a strict requirement for AMP, but it is a requirement to get your content distributed in certain places (for example, in the Google Search top stories carousel).
 
 ### READ ON — Visit these resources to learn more:  
 
-* Getting Started with AMP on Google Search - learn to prepare your AMP pages for Google Search.
+* [Getting Started with AMP on Google Search] https://developers.google.com/search/docs/guides/enhance-amp - learn to prepare your AMP pages for Google Search.
 * Metadata samples - learn more about all the metadata you’ll need in various other places (e.g., Twitter).  
 
 <br /><br />
-
 
 
 ## CSS amp-boilerplate  
