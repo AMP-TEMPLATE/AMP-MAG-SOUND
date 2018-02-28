@@ -9,7 +9,7 @@ AMP-MAG
 | Contain a <script async <br>src="https://cdn.ampproject.org/v0.js"></script> tag<br> as the second child of their <head> tag.   | Includes and loads the AMP JS library.    |
 |Contain a <link rel="canonical" <br>href="$SOME_URL"> tag inside their <head>  | Points to the regular HTML version of the AMP <br>  HTML document or to itself if no such HTML <br>version exists. Learn more in Make Your Page Discoverable.|
 |Contain a <meta name="viewport" <br>content="width=device-width,minimum-scale=1"><br>tag inside their <head> tag. It's also recommended to include initial-scale=1 | Specifies a responsive viewport. Learn more in Create Responsive AMP Pages.|
-	|   |   |
+| Contain the AMP boilerplate code in their <head> tag.  |  CSS boilerplate to initially hide the content until AMP JS is loaded. |
   
   
   
@@ -17,12 +17,12 @@ AMP-MAG
   
 
   
-  <style amp-boilerplate>body {
-	-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-	-moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-	-ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-	animation: -amp-start 8s steps(1, end) 0s 1 normal both
-}
+  <style amp-boilerplate>body {<br>
+&nbsp;&nbsp;&nbsp;	-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
+&nbsp;&nbsp;&nbsp;	-moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
+&nbsp;&nbsp;&nbsp;	-ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;<br>
+&nbsp;&nbsp;&nbsp;	animation: -amp-start 8s steps(1, end) 0s 1 normal both<br>
+}<br><br>
 
 @-webkit-keyframes -amp-start {
 	from {
