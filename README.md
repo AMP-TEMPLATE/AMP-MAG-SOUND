@@ -16,13 +16,16 @@ AMP-MAG
 |Contain a <meta name="viewport" content="width=device-width,minimum-scale=1"> tag inside their `<head>` tag. It's also recommended to include initial-scale=1 | Specifies a responsive viewport. Learn more in `Create Responsive AMP Pages`.|
 | Contain the `AMP boilerplate code` in their `<head> tag.`  |  CSS boilerplate to initially hide the content until AMP JS is loaded. | 
   
-
+<br /><br /><br /><br />
   
  ``` 
  <style amp-boilerplate>
- 	body {
-		
-        }
+ 	body{
+	    -webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+	    -moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+	    -ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
+	    animation:-amp-start 8s steps(1,end) 0s 1 normal both
+	}
 ```
 
 
