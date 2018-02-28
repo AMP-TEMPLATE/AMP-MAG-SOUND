@@ -89,13 +89,17 @@ In addition to the bare requirements, our sample also includes a Schema.org defi
 }
 
 </style>
+
 <noscript>
-  <style amp-boilerplate>body {
+    <style amp-boilerplate>
+        body {
 	-webkit-animation: none;
 	-moz-animation: none;
 	-ms-animation: none;
 	animation: none
-}
-</style>
+        }
+    </style>
 </noscript>
-```
+```  
+<br /><br /><br /><br />
+
