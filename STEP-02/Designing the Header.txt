@@ -1,0 +1,96 @@
+Classes Involved :
+
+Apply background color to the background part
+
+.top
+{
+  background-color: #E9EFF1;
+}
+
+Draw the circle to the left side of the header
+
+.circle
+{
+    width: 100px;
+    margin-left: -5px;
+    margin-top: -7px;
+    height: 45px;
+    text-align: center;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 58px;
+    border-bottom-left-radius: 44px;
+    font-family: 'normal';
+    font-weight: bold;
+    padding-top: 9px;
+
+}
+
+Style the Logo Test to the right side of the header
+
+ .logo {
+     position: absolute;
+    right: 0px;
+    margin-top: -45px;
+    font-family: 'normal';
+    font-size: 39px;
+    width: 116px;
+}
+
+Style the navigation bar ul element
+
+ .menu_style {
+     padding-left: 10px;
+     margin-top:-30px;
+}
+
+Display all the li elements in the same line
+
+ .menu_main 
+ {
+     display: inline;
+}
+
+Give respective color to each link and set their spacing from one another
+Here, c1, c2, c3, c4 and c5 are set to define color red, orange, blue ,golden and pink respectively
+
+ .c1, .c2, .c3, .c4, .c5 {
+     text-decoration: none;
+     font-weight: bold;
+     font-size:16px;
+     color:#c70000;
+     display: inline-block;
+     
+}
+ .c2 {
+     color:#e05c00;
+}
+ .c3 {
+     color:#0084c6;
+}
+ .c4 {
+     color:#a1845c;
+}
+ .c5 {
+     color:#bb3b80;
+}
+
+Give style to the anchor tags
+
+ .link_style {
+     border-right: 1px solid #999;
+     padding-right: 3px;
+     height: 30px;
+}
+
+Give style to the active link. Depending on the color the link is, styles are defined for each active link. This class will make the Home link as active, giving it an extra red colored tab below the actual link.
+
+.c1_active
+{
+    border-bottom: 5px;
+    border-style: solid;
+    border-left: 0px;
+    border-top: 0px;
+    border-color: #c70000;
+}

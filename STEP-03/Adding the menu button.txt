@@ -1,0 +1,14 @@
+
+Add an png image of the desired menu button and give it the class as provided below:
+
+ .menu {
+     margin: 0px;
+     position:absolute;
+     right:10px;
+     z-index: 999;
+     top: 0;
+     margin-top: 68px;
+     width: 100%;
+     display: flex;
+
+}
