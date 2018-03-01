@@ -1,11 +1,12 @@
-Adding header with background color and logo right and left...
+Specifying fonts to be implemented throughout the application 
 
-.header {
-    background-color: #e9eff1;
-    border-bottom: 0.0625rem solid #abc2c9;
-    color: #121212;
-    position: relative;
-    max-width: 37.5rem;
-    margin: 0 auto;
+Class Involved :
+
+body {
+     width: auto;
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto';
+}
     
     
