@@ -1,1 +1,1 @@
-![GitHub Logo](/images/logo.png)
+![step-01](/images/piketty.png)
