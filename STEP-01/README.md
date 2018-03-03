@@ -1,1 +1,1 @@
-![step-01](/images/piketty.png)
+![step-01](./images/piketty.png)
