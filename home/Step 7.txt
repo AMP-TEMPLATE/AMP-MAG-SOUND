@@ -1,0 +1,8 @@
+# Step 7: Design Section 4
+ 
+Code:
+<article> <!-- Content of the page -->
+  <h1>Home</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas tortor sapien, non tristique ligula accumsan eu.</p>
+  <amp-img src="images/scene1.jpg" layout="responsive" width="266" height="150"></amp-img>
+</article>

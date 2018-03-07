@@ -1,0 +1,10 @@
+# Step 1: Preparing basic html structure
+<html>
+<head>
+<title> <!-- Give appropriate title to the page  --> </title>
+<!-- Required scripts and styles -->
+</head>
+<body>
+<!-- Page contents -->
+</body>
+</html>
