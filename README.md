@@ -13,7 +13,8 @@ Steps | Title
 
 ### Step 1:Preparing basic html structure
 ```
-<html>
+<!doctype html>
+<html AMP>
 <head>
 <title> <!-- Give appropriate title to the page  --> </title>
 <!-- Required scripts and styles -->
@@ -36,7 +37,7 @@ Steps | Title
 
 ```
 
-### Step 3:Adding basic styling to custom.css
+### Step 3:Adding basic styling within ```<style amp-custom></style>``` tags:
 ```
 html{
     -moz-osx-font-smoothing:grayscale;
@@ -212,7 +213,7 @@ Blogs
 
 </amp-sidebar>
 ```
-### Add classes within ```<style custom-amp></style>``` tags:
+### Add classes within ```<style amp-custom></style>``` tags:
 ```
 .header{
     background-color:#e9eff1;
@@ -553,11 +554,11 @@ Blogs
 </div>
 
 ```
-### Add classes within ```<style custom-amp></style>``` tags:
+### Add classes within ```<style amp-custom></style>``` tags:
 ```
 .side-margins
 {
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .content__header{
     background-image:-webkit-repeating-linear-gradient(top, #dcdcdc, #dcdcdc 0.0625rem, transparent 0.0625rem, transparent 0.25rem);
@@ -583,7 +584,7 @@ Blogs
 ### Code:
 ```
 <h1 class="content__headline">
-FAQ Article
+Home
 </h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas tortor sapien, non tristique ligula accumsan eu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas tortor sapien, non tristique ligula accumsan eu.</p>
 <amp-img src="images/scene2.jpg" layout="responsive" width="266" height="150"></amp-img>
@@ -598,7 +599,7 @@ FAQ Article
 </div>
 </div>
 ```
-### Add classes within ```<style custom-amp></style>``` tags:
+### Add classes within ```<style amp-custom></style>``` tags:
 ```
 .content__headline{
     font-size:1.75rem;
@@ -606,7 +607,8 @@ FAQ Article
     font-weight:400;
     letter-spacing:-.02rem;
     padding-top:0.375rem;
-    padding-bottom:1.5rem
+    padding-bottom:1.5rem;
+    text-align: center;
 }
 .content__headline a,.content__headline a:hover,.content__headline a:active,.content__headline a:focus{
     color:#333
