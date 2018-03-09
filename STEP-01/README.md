@@ -1,8 +1,0 @@
-
----  
-2. General - Setting up some base styles  
----  
-
-
-
-![step-01](./images/piketty.png)
