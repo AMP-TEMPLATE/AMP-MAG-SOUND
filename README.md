@@ -212,7 +212,7 @@ Blogs
 
 </amp-sidebar>
 ```
-### Add classes to custom.css:
+### Add classes within ```<style custom-amp></style>``` tags:
 ```
 .header{
     background-color:#e9eff1;
@@ -553,7 +553,7 @@ Blogs
 </div>
 
 ```
-### Add classes to custom.css
+### Add classes within ```<style custom-amp></style>``` tags:
 ```
 .side-margins
 {
@@ -598,7 +598,7 @@ FAQ Article
 </div>
 </div>
 ```
-### Add Classes to custom.css:
+### Add classes within ```<style custom-amp></style>``` tags:
 ```
 .content__headline{
     font-size:1.75rem;
