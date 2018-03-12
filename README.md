@@ -102,7 +102,7 @@ nav ul,nav ol{
 
 ```
 # Step 4: Design Section 1
-![Image of Section1](https://github.com/iwilfried/AMP-MAG/blob/master/images/section1.PNG)
+![Image of Section1](https://github.com/iwilfried/AMP-MAG/blob/master/images/Section1.PNG)
 
 ### Code:
 ```
@@ -570,7 +570,7 @@ hr.style1
 ```
 # Step 5: Design Section 2
 
-![Image of Section 2](https://github.com/iwilfried/AMP-MAG/blob/master/images/section%202.PNG)
+![Image of Section 2](https://github.com/iwilfried/AMP-MAG/blob/master/images/Section%202.PNG)
 
 ### Code:
 ```
@@ -587,7 +587,10 @@ hr.style1
   <a href="sports.html" class="side_menu_sub_link_1">Sports</a>
   <a href="entertainment.html" class="side_menu_sub_link_1">Entertainment</a>
 </div>
-
+<hr class="style1">
+<hr class="style1">
+<hr class="style1">
+<hr class="style1">
 ```
 ### Add classes within ```<style amp-custom></style>``` tags:
 ```
@@ -614,7 +617,7 @@ hr.style1
 ```
 # Step 6: Design Section 3
 
-![Image of Section 2](https://github.com/iwilfried/AMP-MAG/blob/master/images/section%203.PNG)
+![Image of Section 2](https://github.com/iwilfried/AMP-MAG/blob/master/images/Section%203.PNG)
 
 ### Code:
 ```
