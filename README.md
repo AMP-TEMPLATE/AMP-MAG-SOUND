@@ -125,7 +125,7 @@ Support The <br>Ipsum</span>
 </a>
 <ul class="ul_nav">
 <li class="li_nav">
-<a class="nav_link" href="homepage.html" >
+<a class="nav_link special_1" href="index.html" >
 Home
 </a>
 </li>
@@ -273,7 +273,8 @@ Blogs
     position:relative;
     font-size:0.8125rem;
     line-height:1.2;
-    text-align:center
+    text-align:center;
+    font-weight:bold;
 }
 
 .header_drawcircle{
@@ -484,26 +485,13 @@ Blogs
 }
 
 .side_menu_sub_link_1
-{    margin-left: 5px;
-     color:#c70000;
+{  
+   padding-top: 10px;
+   padding-left: 10px;
+   display:inline-block;
+   color:#000;
 }
- .side_menu_sub_link_2 {
-     margin-left: 5px;
-     color:#e05c00;
-}
- .side_menu_sub_link_3 {
-     margin-left: 5px;
-     color:#0084c6;
-}
- .side_menu_sub_link_4 {
-     margin-left: 5px;
-     color:#a1845c;
-}
- .side_menu_sub_link_5 {
-     margin-left: 5px;
-     color:#bb3b80;
-}
-
+ 
 .side_menu_sub_link_active
 {
   margin-left:5px;
@@ -530,6 +518,53 @@ Blogs
 }
  .c5 {
      color:#bb3b80;
+}
+hr.style1
+{
+      border-top: 1px solid #8c8b8b85;
+    margin-bottom: -6px;
+    margin-left: -11px;
+    margin-right: -11px;
+}
+.special_1
+{
+  border-bottom-color: #c70000;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  display: inline;
+  padding-bottom: 6px;
+}
+.special_2
+{
+  border-bottom-color: #e05e00;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  display: inline;
+  padding-bottom: 6px;
+}
+.special_3
+{
+  border-bottom-color: #0084c6;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  display: inline;
+  padding-bottom: 6px;
+}
+.special_4
+{
+  border-bottom-color: #a1845c;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  display: inline;
+  padding-bottom: 6px;
+}
+.special_5
+{
+  border-bottom-color: #bb3b80;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  display: inline;
+  padding-bottom: 6px;
 }
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 ```
