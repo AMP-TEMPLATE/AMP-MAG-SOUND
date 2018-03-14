@@ -9,8 +9,8 @@ Steps | Title
 5 | Design Section 2
 6 | Design Section 3
 
-![Image of Section1](https://github.com/iwilfried/AMP-MAG/blob/master/images/full_image_1 (3).PNG)
-
+![Image of Section1](https://github.com/iwilfried/AMP-MAG/blob/master/images/image_full_1.PNG)
+![Image of Section1](https://github.com/iwilfried/AMP-MAG/blob/master/images/image_full_2.PNG)
 ### Step 1:Preparing basic html structure
 ```
 <!doctype html>
