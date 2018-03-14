@@ -616,7 +616,7 @@ hr.style1
 ```
 # Step 6: Design Section 3
 
-![Image of Section 2](https://github.com/iwilfried/AMP-MAG/blob/master/images/Section3.PNG)
+![Image of Section 2](https://github.com/iwilfried/AMP-Mag-Sound/blob/master/images/Section3.PNG)
 
 ### Code:
 ```
