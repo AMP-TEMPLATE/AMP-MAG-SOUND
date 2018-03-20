@@ -621,173 +621,75 @@ hr.style1
 ### Code:
 ```
 
-<h1 class="content__headline">
-Home
-</h1>
-
-
 <!-- sound card -->
 <div class="tabs-content">
-        <amp-selector role="tablist" layout="container">
-            
-            <div role="tab" class="tabButton" selected option="a"></div>
-            <div role="tabpanel" class="tabContent">
-        <div class="tint-block tint-block-top bg-body-1 home-card">
-          <div class="tint bg-red-light">
-            
-            <div class="tint-position">
-              <h1 class="tint-header">
-                GREETINGS
-              </h1>
-              <span class="tint-span">
-                PRESENTING SAMPEAH IS A SIGN OF RESPECT AND POLITENESS AND IT IS CONSIDERED IMPOLITE NOT TO RETURN SAMPEAH.
-              </span>
-            
-          </div>
-          </div>
+                <amp-selector role="tablist" layout="container" class="" style="">
+
+                  <div role="tab" class="tabButton" selected option="a">Home</div>
+                  <div role="tabpanel" class="tabContent">
+                    <div class="tint-block tint-block-top bg-body-1 home-card">
+                      <div class="tint bg-red-light">
+
+                        <div class="tint-position">
+                          <h1 class="tint-header">
+                            GREETINGS
+                          </h1>
+                          <span class="tint-span">
+                            PRESENTING SAMPEAH IS A SIGN OF RESPECT AND POLITENESS.
+                          </span>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="content page-content-card page-content-card-bottom">
+                      <h4 class="icon-heading uppercase ultrabold half-bottom">SAMPEAH</h4>
+                      <p>
+                        Sampeah is either used when you want to greet ( in KhmerL ->ផ៣បសវ joom reab sour) somebody or when you want to say goodbye (in Khmer:ផ៣បសវ ->joom reab lea). First of all, we need to place our both palms together like a lotus flower in front of our chest. Both are the formal way to gret and to say goodbye.
+                        <amp-img alt="" src="img/s-07.png" height="145px"></amp-img>
+                      </p>
+
+
+
+                      <amp-list width="auto"
+                      height="1790"
+                      layout="fixed-height"
+                      src="https://amp-sound.firebaseapp.com/json/audio.json">
+                      <template type="amp-mustache">
+    <!-- <div class="url-entry">
+      <a href="{{url}}">{{url}}</a>
+    </div> -->
+    <div id="widget" class="widget g-background-default g-shadow-inset">
+      <p class="p1-text">{{title1}}</p>
+      <p class="p2-text">{{title2}}</p>
+      <p class="p3-text">{{title3}}</p>
+      <p class="p3-text">{{title4}}</p>
+      <div class="audio-container">
+        <amp-audio  class="audio-player" width="auto" height="50" 
+        src="{{url}}"  controlsList="nodownload" >
+        <div fallback>
+          <p>Your browser doesn’t support HTML5 audio</p>
         </div>
-        
-        <div class="content page-content-card page-content-card-bottom">
-          <h4 class="icon-heading uppercase ultrabold half-bottom">SAMPEAH</h4>
-          <p>
-            Sampeah is either used when you want to greet ( in KhmerL ->ផ៣បសវ joom reab sour) somebody or when you want to say goodbye (in Khmer:ផ៣បសវ ->joom reab lea). First of all, we need to place our both palms together like a lotus flower in front of our chest. Both are the formal way to gret and to say goodbye.
-          </p>
-
-          <div id="widget" class="widget g-background-default g-shadow-inset" style="height: 100%">
-            <p class="p1-text">Hello (informal)</p>
-            <p class="p2-text">Sous-dey</p>
-            <p class="p3-text">For friends,colleagues,younger people</p>
-            <p class="p3-text">one more line...</p>
-            <div class="audio-container">
-              <amp-audio  class="audio-player" width="auto" height="50" 
-              src="(full path to audio file)/audio/01-DR2-0063.mp3"  controlsList="nodownload" >
-              <div fallback>
-                  <p>Your browser doesn’t support HTML5 audio</p>
-                </div>
-              </amp-audio>
-            </div>
-          </div>
-
-          <div id="widget" class="widget g-background-default g-shadow-inset" style="height: 100%">
-            <p class="p1-text">Hello (formal)</p>
-            <p class="p2-text">Chum reap sour</p>
-            <p class="p3-text">Great people who are not so close to you</p>
-            <p class="p3-text">one more line...</p>
-            <div class="audio-container">
-              <amp-audio class="audio-player" width="auto" height="50" src="(full path to audio file)/audio/02-DR2-0078.mp3"  controlsList="nodownload" >
-              <div fallback>
-                  <p>Your browser doesn’t support HTML5 audio</p>
-                </div>
-              </amp-audio>
-            </div>
-          </div>
-
-          <div id="widget" class="widget g-background-default g-shadow-inset" style="height: 100%">
-            <p class="p1-text">How are you ?</p>
-            <p class="p2-text">Ter nek sok sabay te?</p>
-            <p class="p3-text">Cambodian usually ask this question</p>
-            <p class="p3-text">one more line...</p>
-            <div class="audio-container">
-              <amp-audio class="audio-player" width="auto" height="50" src="(full path to audio file)/audio/03-DR2-0087.mp3"  controlsList="nodownload" >
-              <div fallback>
-                  <p>Your browser doesn’t support HTML5 audio</p>
-                </div>
-              </amp-audio>
-            </div>
-          </div>
-            <div id="widget" class="widget g-background-default g-shadow-inset" style="height: 100%">
-            <p class="p1-text">Hello (informal)</p>
-            <p class="p2-text">Sous-dey</p>
-            <p class="p3-text">For friends,colleagues,younger people</p>
-            <p class="p3-text">one more line...</p>
-            <div class="audio-container">
-              <amp-audio  class="audio-player" width="auto" height="50" 
-              src="(full path to audio file)/audio/01-DR2-0063.mp3"  controlsList="nodownload" >
-              <div fallback>
-                  <p>Your browser doesn’t support HTML5 audio</p>
-                </div>
-              </amp-audio>
-            </div>
-          </div>
-
-          <div id="widget" class="widget g-background-default g-shadow-inset" style="height: 100%">
-            <p class="p1-text">Hello (formal)</p>
-            <p class="p2-text">Chum reap sour</p>
-            <p class="p3-text">Great people who are not so close to you</p>
-            <p class="p3-text">one more line...</p>
-            <div class="audio-container">
-              <amp-audio class="audio-player" width="auto" height="50" src="/(full path to audio file)/audio/02-DR2-0078.mp3"  controlsList="nodownload" >
-              <div fallback>
-                  <p>Your browser doesn’t support HTML5 audio</p>
-                </div>
-              </amp-audio>
-            </div>
-          </div>
-
-          <div id="widget" class="widget g-background-default g-shadow-inset" style="height: 100%">
-            <p class="p1-text">How are you ?</p>
-            <p class="p2-text">Ter nek sok sabay te?</p>
-            <p class="p3-text">Cambodian usually ask this question</p>
-            <p class="p3-text">one more line...</p>
-            <div class="audio-container">
-              <amp-audio class="audio-player" width="auto" height="50" src="(full path to audio file)/audio/03-DR2-0087.mp3"  controlsList="nodownload" >
-              <div fallback>
-                  <p>Your browser doesn’t support HTML5 audio</p>
-                </div>
-              </amp-audio>
-            </div>
-          </div>
-            <div id="widget" class="widget g-background-default g-shadow-inset" style="height: 100%">
-            <p class="p1-text">Hello (informal)</p>
-            <p class="p2-text">Sous-dey</p>
-            <p class="p3-text">For friends,colleagues,younger people</p>
-            <p class="p3-text">one more line...</p>
-            <div class="audio-container">
-              <amp-audio  class="audio-player" width="auto" height="50" 
-              src="(full path to audio file)/audio/01-DR2-0063.mp3"  controlsList="nodownload" >
-              <div fallback>
-                  <p>Your browser doesn’t support HTML5 audio</p>
-                </div>
-              </amp-audio>
-            </div>
-          </div>
-
-          <div id="widget" class="widget g-background-default g-shadow-inset" style="height: 100%">
-            <p class="p1-text">Hello (formal)</p>
-            <p class="p2-text">Chum reap sour</p>
-            <p class="p3-text">Great people who are not so close to you</p>
-            <p class="p3-text">one more line...</p>
-            <div class="audio-container">
-              <amp-audio class="audio-player" width="auto" height="50" src="(full path to audio file)/audio/02-DR2-0078.mp3"  controlsList="nodownload" >
-              <div fallback>
-                  <p>Your browser doesn’t support HTML5 audio</p>
-                </div>
-              </amp-audio>
-            </div>
-          </div>
-
-          <div id="widget" class="widget g-background-default g-shadow-inset" style="height: 100%">
-            <p class="p1-text">How are you ?</p>
-            <p class="p2-text">Ter nek sok sabay te?</p>
-            <p class="p3-text">Cambodian usually ask this question</p>
-            <p class="p3-text">one more line...</p>
-            <div class="audio-container">
-              <amp-audio class="audio-player" width="auto" height="50" src="(full path to audio file)/audio/03-DR2-0087.mp3"  controlsList="nodownload" >
-              <div fallback>
-                  <p>Your browser doesn’t support HTML5 audio</p>
-                </div>
-              </amp-audio>
-            </div>
-          </div>
-
-          
-          <div class="decoration"></div>
-        </div>      
-      </div>
-           
-        
-        </amp-selector>
+      </amp-audio>
     </div>
+  </div>
+
+</template>
+</amp-list>
+
+
+
+
+
+
+
+<div class="decoration"></div>
+</div>      
+</div>
+
+
+</amp-selector>
+</div>
 <!-- sound card -->
 </div>
 </div>
@@ -797,66 +699,59 @@ Home
 
 </div>
 </div>
+
+
 ```
 ### Add classes within ```<style amp-custom></style>``` tags:
 ```
 .content__headline{
-    font-size:1.75rem;
-    line-height:2rem;
-    font-weight:400;
-    letter-spacing:-.02rem;
-    padding-top:0.375rem;
-    padding-bottom:1.5rem;
-    text-align: center;
+  font-size:1.75rem;
+  line-height:2rem;
+  font-weight:400;
+  letter-spacing:-.02rem;
+  padding-top:0.375rem;
+  padding-bottom:1.5rem;
+  text-align: left;
+  font-weight: 900;
+
 }
 .content__headline a,.content__headline a:hover,.content__headline a:active,.content__headline a:focus{
-    color:#333
+  color:#333
 }
 .content__headline em{
-    font-style:normal
+  font-style:normal
 }
 .content__headline strong{
-    font-weight:normal
+  font-weight:normal
 }
 .content__headline--byline{
-    display:block;
-    padding-top:0;
-    margin-top:-1.5rem;
-    padding-bottom:1.5rem
+  display:block;
+  padding-top:0;
+  margin-top:-1.5rem;
+  padding-bottom:1.5rem
 }
 .tabButton[selected] {
-    /*outline: none;
-    background: #005f5f;
-  color: white;*/
-  display: none;
-}
+    display: none;
+  }
 
-.tabButton {
-    /*list-style: none;
-    text-align: center;
-    cursor: pointer;
-    padding: 7px 0.5em;
-    border-bottom: none;
-    text-decoration: none;
-  font-size: 17px;*/
-  display: none;
+  .tabButton {
+    display: none;
+  }
 
-}
-
-.tabContent {
+  .tabContent {
     display: none;
     width: 100%;
-    order: 1; /* must be greater than the order of the tab buttons to flex to the next line */
+    order: 1; 
     border: 1px solid #ccc;
     padding: 5px;
     line-height: 24px;
-}
+  }
 
-.tabButton[selected]+.tabContent {
+  .tabButton[selected]+.tabContent {
     display: block;
-}
-.page-content-card{
-      font-family: Roboto;
+  }
+  .page-content-card{
+    font-family: Roboto;
     z-index: 97;
     position: relative;
     background-color: #fefefe;
@@ -866,49 +761,52 @@ Home
     padding-left: 10px;
     padding-right: 10px;
     /* border: solid 1px rgba(0,0,0,0.1); */
-    margin-top: -95px;
+    margin-top: -169px;
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.05);
-}
-.tint-block .tint{
-  position:absolute;
-  top:0px;
-  left:0px;
-  right:0px;
-  bottom:0px;
-  opacity:0.7;
-  z-index:3;
-  height: 380px;
-  background-image: linear-gradient( rgba(255, 0, 0, 0.49), rgba(255, 0, 0, 1) ),url(images/bg1.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
+  }
+  .tint-block .tint{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    /* opacity:0.7;*/
+    z-index:3;
+    width:115%;
+    height: 380px;
+    background-image: linear-gradient( rgba(255, 0, 0, 0.49), rgba(195, 78, 63, 1) ),url(img/bg1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-x: -36px;
+    background-position-y: -59px;
 
-}
-.tint-block{background-size:cover;}
-.bg-body-1{background-image:url(images/pictures_vertical/bg1.jpg); background-position:150px right;}
-.tint-block-top{padding: 50px 0px 120px 0px;}
-p{
-  line-height:27px; 
-  font-weight:400; 
-  color:#666666; 
-  font-size:13px; 
-  margin-bottom:30px;
+  }
+  .tint-block{background-size:cover;}
+  .bg-body-1{background-position:150px right;}
+  .tint-block-top{padding: 50px 0px 120px 0px;}
+  p{
+    line-height:20px; 
+    font-weight:400; 
+    color:#666666; 
+    font-size:16px; 
+    margin-bottom:15px;
 
-}
-.ultrabold{font-weight:800;}
-.uppercase{text-transform: uppercase;}
-.bg-red-light{background-color: #e74c3c; color:#FFFFFF;}
-.decoration{
-  height:1px; 
-  background-color:rgba(0,0,0,0.1);
-}
-.g-background-default {
+  }
+  .ultrabold{font-weight:800;}
+  .uppercase{text-transform: uppercase;}
+  .bg-red-light{background-color: #e74c3c; color:#FFFFFF;}
+  .decoration{
+    height:1px; 
+    background-color:rgba(0,0,0,0.1);
+  }
+  .g-background-default {
     background-color: #f5f5f5;
-}
+  }
 
-.widget {
-  
-    width: 100%;
-    height: 100%;
+  .widget {
+
+   /* width: 100%;*/
+   /* height: 100%;*/
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100px 60px;
@@ -916,70 +814,79 @@ p{
     border: 1px solid #e5e5e5;
     overflow: hidden;
     margin-bottom: 5%;
-}
+  }
 
 
-h4{ font-size:18px; line-height:28px; font-weight:500;color:black;}
+  h4{ font-size:18px; line-height:28px; font-weight:500;color:black;}
 
-.g-shadow-inset {
+  .g-shadow-inset {
     box-shadow: inset 0 0 0 1px hsla(0,0%,100%,.5);
-}
+  }
 
+  .audio-container{
+    padding: 20px 20px;
+  }
 
+  .audio-player{  
+    /*border: 1px solid #000;*/
+  }
 
-.audio-container{
-  padding: 20px 20px;
-}
-
-.audio-player{  
-  /*border: 1px solid #000;*/
-}
-
-
-.p1-text{
-  font-size: 17px;
+  .p1-text{
+    font-size: 17px;
     padding: 20px 20px 0px;
     margin: auto;
     line-height: 1px;
-}
+  }
 
-.p2-text{
-  font-size: 17px;
+  .p2-text{
+    font-size: 17px;
     padding: 20px 20px 0px;
     color:red;
     margin: auto;
     line-height: 1px;
-}
+  }
 
-.p3-text{
-  /*font-size: 16px;*/
+  .p3-text{
+    /*font-size: 16px;*/
     padding: 20px 20px 0px;
     margin: auto;
     line-height: 1px;
-}
-.home-card{
-  padding: 260px 0px 120px 0px;
-}
-.tint-position
-{
-  padding-top: 127px;padding-left: 17px;
-}
-.tint-span
-{
-  font-family: Roboto;
+  }
+  .home-card{
+    padding: 260px 0px 120px 0px;
+  }
+  .tint-position
+  {
+    padding-top: 127px;padding-left: 17px;
+  }
+  .tint-span
+  {
+    font-family: Roboto;
     font-size: 12px;
     float: left;
-    width: 221px;
+    width: 143px;
+  }
+  .tint-header
+  {
+   font-family:Roboto;
+   margin-top: -56px;
+  margin-bottom: 12px;
+ }
+ .half-bottom
+ {
+ margin-bottom: 3px;
+ margin-top: -10px;
+ }
+ .tabs-content
+ {
+  padding-top:10px;
+  margin:-10px;
 }
-.tint-header
-{
- font-family:Roboto;
-}
-.half-bottom{margin-bottom:15px}
 ```
 ### Add script and Roboto Font link for sound integration in the ```<head></head>``` section:
 ```
-<script async custom-element="amp-soundcloud" src="https://cdn.ampproject.org/v0/amp-soundcloud-0.1.js"></script>
 <script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"></script>
+  <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+  <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 ```
