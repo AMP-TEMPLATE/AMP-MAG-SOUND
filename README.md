@@ -29,7 +29,7 @@ Steps | Title
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<link rel="canonical" href="https://amp-mag.firebaseapp.com/">
+<link rel="canonical" href="https://sound-json.firebaseapp.com/">
 <script custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js" async></script>
 <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
 <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async></script>
@@ -576,7 +576,7 @@ hr.style1
 ```
 # Step 5: Design Section 2
 
-![Image of Section 2](https://github.com/iwilfried/Amp-Mag-Sound/blob/master/images/sub menu.PNG)
+![Image of Section 2](https://github.com/iwilfried/Amp-Mag-Sound/blob/master/images/sub%20menu.PNG)
 
 ### Code:
 ```
