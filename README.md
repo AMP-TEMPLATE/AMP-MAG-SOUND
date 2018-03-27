@@ -133,83 +133,90 @@ nav ul,nav ol{
     </a>
     <ul class="ul_nav">
       <li class="li_nav">
-        <a class="nav_link special_1" href="https://amp-mag-c5232.firebaseapp.com" >
+        <a class="nav_link special_1" href="#" >
           Greetings
         </a>
       </li>
       <li class="li_nav">
-        <a class="nav_link" href="about.html">
+        <a class="nav_link" href="#">
           Food
         </a>
       </li>
       <li class="li_nav">
-        <a class="nav_link" href="faq.html">
+        <a class="nav_link" href="#">
           Culture
         </a>
       </li>
       <li class="li_nav">
-        <a class="nav_link" href="blog.html">
+        <a class="nav_link" href="#">
           Lifestyle
         </a>
       </li>
     </ul>
+ 
     <button class="menu-burger" on='tap:sidebar1.toggle'>
       <span class="menu-burger_icon"></span>
     </button>
+
   </nav>
 </header>
+
 <amp-sidebar class="menu" layout="nodisplay" id="sidebar1">
+  <div>
   <amp-img class="amp-close-image cross-btn"
-  src="img/cross.png"
-  width="20"
-  height="20"
+  src="img/test.png"
+  width="60"
+  height="60"
   alt="close sidebar"
   on="tap:sidebar1.close"
   role="button"
   tabindex="0"></amp-img>
+</div>
   <amp-accordion disable-session-states class="top_padding_20">
     <section>
-      <h2 class="c1 side_menu_1">Greetings<hr class="side_menu_2"></h2>
+      <h2 class="sidebarstyle padding_120 padding_15">Home</h2>
       <div class="side_menu_5">
         <ul>
-          <li class="side_menu_3"><a href="dialog.html" class="side_menu_sub_link">Dialog</a></li>
-          <li class="side_menu_3"><a href="numbers.html" class="side_menu_sub_link">Numbers</a></li>
+          <li class="side_menu_3"><a href="#" class="side_menu_sub_link">Dialog</a></li>
+          <li class="side_menu_3"><a href="#" class="side_menu_sub_link">Numbers</a></li>
         </ul>
       </div>
     </section>
     <section>
-      <h2 class="c2 side_menu_1">Food<hr class="side_menu_2"></h2>
+      <h2 class="sidebarstyle">Service</h2>
       <div class="side_menu_5">
         <ul>
-          <li class="side_menu_3"><a href="how_we_work.html" class="side_menu_sub_link">How we Work</a></li>
+          <li class="side_menu_3"><a href="#" class="side_menu_sub_link">How we Work</a></li>
         </ul>
       </div>
     </section>
     <section>
-      <h2 class="c3 side_menu_1">Culture<hr class="side_menu_2"></h2>
+      <h2 class="sidebarstyle">Portfolio</h2>
       <div class="side_menu_5">
         <ul>
-          <li class="side_menu_3"><a href="find_answers.html" class="side_menu_sub_link">Find Answers Here</a></li>
+          <li class="side_menu_3"><a href="#" class="side_menu_sub_link">Find Answers Here</a></li>
         </ul>
       </div>
     </section>
     <section>
-      <h2 class="c5 side_menu_1">Lifestyle<hr class="side_menu_2"></h2>
+      <h2 class="sidebarstyle">Contact</h2>
       <div class="side_menu_5">
         <ul>
-          <li class="side_menu_3"><a href="article1.html" class="side_menu_sub_link">Article 1</a></li>
-          <li class="side_menu_3"><a href="article2.html" class="side_menu_sub_link">Article 2</a></li>
-          <li class="side_menu_3"><a href="article3.html" class="side_menu_sub_link">Article 3</a></li>
+          <li class="side_menu_3"><a href="#" class="side_menu_sub_link">Article 1</a></li>
+          <li class="side_menu_3"><a href="#" class="side_menu_sub_link">Article 2</a></li>
+          <li class="side_menu_3"><a href="#" class="side_menu_sub_link">Article 3</a></li>
         </ul>
       </div>
     </section>
   </amp-accordion>
 
 </amp-sidebar>
+
+
 ```
 ### Add classes within ```<style amp-custom></style>``` tags:
 ```
-.header{
+ .header{
     background-color:#e9eff1;
     border-bottom:0.0625rem solid #abc2c9;
     color:#121212;
@@ -217,7 +224,7 @@ nav ul,nav ol{
     max-width:37.5rem;
     margin:0 auto
   }
-  .header_position{
+.header_position{
     left:-0.625rem;
     position:absolute;
     top:0
@@ -227,58 +234,10 @@ nav ul,nav ol{
       left:0
     }
   }
-  .header_logo{
-    display:-webkit-box;
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
-    float:none;
-    margin-left:auto;
-    margin-bottom: 9px;
-  }
-
-  .header_new_svg
-  {
-    margin-top: 15px;
-  }
-
-  .header_logo_svg{
-    display:block;
-    height:3.25rem;
-    width:9.9375rem;
-    margin-bottom:0.9375rem;
-    margin-right:2.8125rem;
-    margin-top:0.1875rem
-  }
-  @media (min-width: 22.5em){
-    .header_logo_svg{
-      height:3.5625rem;
-      margin-right:0.625rem;
-      width:10.9375rem
-    }
-  }
-  @media (min-width: 30em){
-    .header_logo_svg{
-      margin-right:1.25rem
-    }
-  }
-  .header_linkstyle{
+.header_linkstyle{
     color:#e9eff1
   }
-  .header_circletext{
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-    display:block;
-    padding:0.5625rem 1.25rem 0.1875rem;
-    position:relative;
-    font-size:0.8125rem;
-    line-height:1.2;
-    text-align:center;
-    font-weight: bold;
-  }
-
-  .header_drawcircle{
+.header_drawcircle{
     bottom:-0.75rem;
     left:0;
     overflow:hidden;
@@ -304,6 +263,27 @@ nav ul,nav ol{
     position:absolute;
     right:0
   }
+  .header_circletext{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    display:block;
+    padding:0.5625rem 1.25rem 0.1875rem;
+    position:relative;
+    font-size:0.8125rem;
+    line-height:1.2;
+    text-align:center;
+    font-weight: bold;
+  }
+ .header_logo{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    float:none;
+    margin-left:auto;
+    margin-bottom: 9px;
+  }
   .ul_nav{
     height:1.875rem;
     margin:0;
@@ -315,7 +295,7 @@ nav ul,nav ol{
 
     }
   }
-  .li_nav{
+ .li_nav{
     display:block;
     float:left;
     font-weight:500;
@@ -343,7 +323,7 @@ nav ul,nav ol{
   .li_nav:nth-child(5){
     color:#bb3b80
   }
-  .nav_link{
+.nav_link{
 
     font-size:0.9375rem;
     font-weight:900;
@@ -368,6 +348,14 @@ nav ul,nav ol{
   position:absolute;
   border-left:0.0625rem solid #abc2c9;
   top:0.1875rem
+}
+.special_1
+{
+  border-bottom-color: #c70000;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  display: inline;
+  padding-bottom: 6px;
 }
 .menu-burger{
   background-color:#121212;
@@ -419,15 +407,13 @@ nav ul,nav ol{
   bottom:-0.375rem
 }
 .menu{
-  background-color:#e9eff1;
-  color:#121212;
-  width:80vw
+  background-color:#385574;
+  color:white;
+  width:80vw;
 }
 .menu div:first-of-type{
   overflow-y:scroll
 }
-
-
 .cross-btn
 {
   float:right;
@@ -435,148 +421,37 @@ nav ul,nav ol{
 .top_padding_20 {
  margin-top: 20px;
 }
-.menu_style {
- padding-left: 10px;
- margin-top:-30px;
+.sidebarstyle
+  {
+    font-family:Roboto;
+    text-align:center;
+    background-color:#385574;
+    color:white;
+    border:none;
+    font-weight: 100;
+    font-weight:300;
+    font-size:45px;
+  }
+  .padding_15 {
+    padding-left: 15px;
 }
+.side_menu_5 {
+ background-color:lightgray;
 }
-/* li styling top menu*/
-.link_style {
- border-right: 1px solid #999;
- padding-right: 3px;
- height: 30px;
-}
-/*side menu link position*/
-.side_menu {
- margin-top: 15px;
-}
-/*Styling every parent link in the side menu*/
-.side_menu_1 {
- display: inline-block;
- padding-left:28px;
- padding-bottom: 5px;
- font-size: 18px;
- background:transparent;
- border:1px solid #EFEFEF;
-}
-/*styling the separator between the parent links*/
-.side_menu_2 {
- margin-top: 5px;
- margin-left: 0px;
-}
-/*child menu links in sidebar*/
 .side_menu_3 {
  list-style: none;
  margin-bottom: 8px;
 }
-.top_padding_20 {
- margin-top: 20px;
-}
-.side_menu_4 {
- margin-left: 25px;
-}
-/*styling background of submenu in sidebar*/
-.side_menu_5 {
- background-color:lightgray;
-}
-/*styling the sub links in the parent page*/
 .side_menu_sub_link{
  text-decoration: none;
  color:black;
  font-weight:100;
 }
-/*color wise styling for each sub menu in the parent page */
-.side_menu_sub_link_1
-{  
- padding-top: 10px;
- padding-left: 10px;
- display:inline-block;
- color:#000;
- font-family: Roboto;
- font-weight: bold;
-}
-
-
-/*active submenu link styling*/
-.side_menu_sub_link_active
-{
-  margin-left:5px;
-  color:black;
-  font-weight: bold;
-  text-decoration: none;
-}
-.c1, .c2, .c3, .c4, .c5 {
- text-decoration: none;
- font-weight: bold;
- font-size:1.5rem;
- color:#c70000;
- display: inline-block;
-
-}
-.c2 {
- color:#e05c00;
-}
-.c3 {
- color:#0084c6;
-}
-.c4 {
- color:#a1845c;
-}
-.c5 {
- color:#bb3b80;
-}
-hr.style1
-{
-  border-top: 1px solid #8c8b8b85;
-  margin-bottom: -6px;
-  margin-left: -11px;
-  margin-right: -11px;
-}
-.special_1
-{
-  border-bottom-color: #c70000;
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  display: inline;
-  padding-bottom: 6px;
-}
-.special_2
-{
-  border-bottom-color: #e05e00;
-  border-bottom-width: 4px;
-  border-bottom-style: solid;
-  display: inline;
-  padding-bottom: 6px;
-}
-.special_3
-{
-  border-bottom-color: #0084c6;
-  border-bottom-width: 4px;
-  border-bottom-style: solid;
-  display: inline;
-  padding-bottom: 6px;
-}
-.special_4
-{
-  border-bottom-color: #a1845c;
-  border-bottom-width: 4px;
-  border-bottom-style: solid;
-  display: inline;
-  padding-bottom: 6px;
-}
-.special_5
-{
-  border-bottom-color: #bb3b80;
-  border-bottom-width: 4px;
-  border-bottom-style: solid;
-  display: inline;
-  padding-bottom: 6px;
-}
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 ```
 # Step 5: Design Section 2
 
-![Image of Section 2](https://github.com/iwilfried/Amp-Mag-Sound/blob/master/images/sub%20menu.PNG)
+![Image of Section 2](https://github.com/iwilfried/Amp-Mag-Sound/blob/master/images/test.PNG)
 
 ### Code:
 ```
@@ -586,21 +461,50 @@ hr.style1
       <header>
         <div class="content__header">
           <div class="container">
+
             <div>
-              <a href="news.html" class="side_menu_sub_link_1">Dialog</a>
-              <a href="sports.html" class="side_menu_sub_link_1">Numbers</a>
+              <a href="#" class="side_menu_sub_link_1">Fashion</a>
+              <a href="#" class="side_menu_sub_link_1">Food</a>
+              <a href="#" class="side_menu_sub_link_1">Recipes</a>
+              <a href="#" class="side_menu_sub_link_1">Love & Sex</a>
+              <span [class]="visible ? 'show' : 'hide'" class="hide">
+            <hr class="style1">
+            
+              <a href="#" class="side_menu_sub_link_1">Health & fitness</a>
+              <a href="#" class="side_menu_sub_link_1">Home & garden</a>
+              <a href="#" class="side_menu_sub_link_1">Women</a>
+            
+            <hr class="style1">
+            
+              <a href="#" class="side_menu_sub_link_1">Family</a>
+              <a href="#" class="side_menu_sub_link_1">Travel</a>
+              <a href="#" class="side_menu_sub_link_1">Money</a>
+           
+             </span>
+               <a [class]="visible ? 'pink' : 'gray'" [text]="visible ? 'Less' : 'More &#709;'" on="tap:AMP.setState({visible: !visible})" class="side_menu_sub_link_1 gray">More &#709;</a>
             </div>
+
+  
             <hr class="style1">
             <hr class="style1">
             <hr class="style1">
             <hr class="style1">
+
 ```
 ### Add classes within ```<style amp-custom></style>``` tags:
 ```
+.main-body{
+    background:#ffffff;
+    max-width:37.5rem;
+    margin:0 auto;
+    
+    overflow-x:hidden;
+  }
 .side-margins
 {
   margin-left: 0px;
 }
+
 .content__header{
   background-image:-webkit-repeating-linear-gradient(top, #dcdcdc, #dcdcdc 0.0625rem, transparent 0.0625rem, transparent 0.25rem);
   background-image:repeating-linear-gradient(to bottom, #dcdcdc, #dcdcdc 0.0625rem, transparent 0.0625rem, transparent 0.25rem);
@@ -617,6 +521,43 @@ hr.style1
  -moz-box-sizing:border-box;
  box-sizing:border-box
 }
+.side_menu_sub_link_1
+{  
+ padding-top: 10px;
+ padding-left: 5px;
+ display:inline-block;
+ color:#000;
+ font-family: Roboto;
+ font-weight: bold;
+}
+hr.style1
+{
+  border-top: 1px solid #8c8b8b85;
+  margin-bottom: -6px;
+  margin-left: -11px;
+  margin-right: -11px;
+}
+.pink
+  {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: bold;
+    color:#bb3b80;
+    text-decoration: none;
+  }
+  .gray
+  {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: bold;
+    color:gray;
+    text-decoration: none;
+    
+  }
 ```
 # Step 6: Design Section 3
 
@@ -624,7 +565,7 @@ hr.style1
 
 ### Code:
 ```
-            <!-- sound card -->
+             <!-- sound card -->
             <div class="tabs-content">
               <amp-selector role="tablist" layout="container" class="" style="">
 
@@ -689,44 +630,22 @@ hr.style1
 
 </div>
 </div>
-
 ```
 ### Add classes within ```<style amp-custom></style>``` tags:
 ```
-.content__headline{
-  font-size:1.75rem;
-  line-height:2rem;
-  font-weight:400;
-  letter-spacing:-.02rem;
-  padding-top:0.375rem;
-  padding-bottom:1.5rem;
-  text-align: left;
-  font-weight: 900;
+ .tabs-content
+  {
+    padding-top:10px;
+    margin:-10px;
+  }
 
-}
-.content__headline a,.content__headline a:hover,.content__headline a:active,.content__headline a:focus{
-  color:#333
-}
-.content__headline em{
-  font-style:normal
-}
-.content__headline strong{
-  font-weight:normal
-}
-.content__headline--byline{
-  display:block;
-  padding-top:0;
-  margin-top:-1.5rem;
-  padding-bottom:1.5rem
-}
- .tabButton[selected] {
+  .tabButton[selected] {
     display: none;
   }
 
   .tabButton {
     display: none;
   }
-
   .tabContent {
     display: none;
     width: 100%;
@@ -739,21 +658,7 @@ hr.style1
   .tabButton[selected]+.tabContent {
     display: block;
   }
-  .page-content-card{
-    font-family: Roboto;
-    z-index: 97;
-    position: relative;
-    background-color: #fefefe;
-    margin-left: 5px;
-    margin-right: 16px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    /* border: solid 1px rgba(0,0,0,0.1); */
-    margin-top: -169px;
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.05);
-  }
-  .tint-block .tint{
+.tint-block .tint{
     position:absolute;
     top:0px;
     left:0px;
@@ -771,9 +676,54 @@ hr.style1
 
   }
   .tint-block{background-size:cover;}
-  .bg-body-1{background-position:150px right;}
+.bg-body-1{background-position:150px right;}
   .tint-block-top{padding: 50px 0px 120px 0px;}
-  p{
+.home-card{
+    padding: 260px 0px 120px 0px;
+  }
+.bg-red-light{background-color: #e74c3c; color:#FFFFFF;}
+.tint-position
+  {
+    padding-top: 127px;padding-left: 17px;
+  }
+ .tint-header
+  {
+   font-family:Roboto;
+   margin-top: -56px;
+   margin-bottom: 12px;
+   font-weight: 900;
+ }
+
+.tint-span
+  {
+    font-family: Roboto;
+    font-size: 12px;
+    float: left;
+    width: 143px;
+    font-weight: bold;
+  }
+
+  .page-content-card{
+    font-family: Roboto;
+    z-index: 97;
+    position: relative;
+    background-color: #fefefe;
+    margin-left: 5px;
+    margin-right: 16px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: solid 1px rgba(0,0,0,0.1); */
+    margin-top: -169px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.05);
+  }
+
+.uppercase{text-transform: uppercase;}
+.ultrabold{font-weight:800;}
+
+.half-bottom{margin-bottom: 3px;
+  margin-top: -10px;}
+p{
     line-height:20px; 
     font-weight:400; 
     color:#666666; 
@@ -781,17 +731,6 @@ hr.style1
     margin-bottom:15px;
 
   }
-  .ultrabold{font-weight:800;}
-  .uppercase{text-transform: uppercase;}
-  .bg-red-light{background-color: #e74c3c; color:#FFFFFF;}
-  .decoration{
-    height:1px; 
-    background-color:rgba(0,0,0,0.1);
-  }
-  .g-background-default {
-    background-color: #f5f5f5;
-  }
-
   .widget {
     width: 79%;
     background-repeat: no-repeat;
@@ -803,24 +742,12 @@ hr.style1
     margin-bottom: 5%;
     margin-left: 8%;
   }
-
-
-  h4{ font-size:18px; line-height:28px; font-weight:500;color:black;}
-
+.g-background-default {
+    background-color: #f5f5f5;
+  }
   .g-shadow-inset {
     box-shadow: inset 0 0 0 1px hsla(0,0%,100%,.5);
   }
-
-
-
-  .audio-container{
-    padding: 20px 20px;
-  }
-
-  .audio-player{  
-    /*border: 1px solid #000;*/
-  }
-
 
   .p1-text{
     font-size: 17px;
@@ -828,56 +755,18 @@ hr.style1
     margin: auto;
     line-height: 1px;
   }
-
-  .p2-text{
-    font-size: 17px;
-    padding: 20px 20px 0px;
-    color:red;
-    margin: auto;
-    line-height: 1px;
+.audio-container{
+    padding: 20px 20px;
+  }
+.decoration{
+    height:1px; 
+    background-color:rgba(0,0,0,0.1);
   }
 
-  .p3-text{
-    font-size: 11px;
-    padding: 20px 20px 0px;
-    margin: auto;
-    line-height: 1px;
-  }
-  .p4-text{
-    font-size: 13px;
-    padding: 20px 20px 0px;
-    margin: auto;
-    line-height: 1px;
-  }
-  .home-card{
-    padding: 260px 0px 120px 0px;
-  }
-  .tint-position
-  {
-    padding-top: 127px;padding-left: 17px;
-  }
-  .tint-span
-  {
-    font-family: Roboto;
-    font-size: 12px;
-    float: left;
-    width: 143px;
-    font-weight: bold;
-  }
-  .tint-header
-  {
-   font-family:Roboto;
-   margin-top: -56px;
-   margin-bottom: 12px;
-   font-weight: 900;
- }
- .half-bottom{margin-bottom: 3px;
-  margin-top: -10px;}
-  .tabs-content
-  {
-    padding-top:10px;
-    margin:-10px;
-  }
+
+
+
+
 ```
 ### Add script and Roboto Font link for sound integration in the ```<head></head>``` section:
 ```
