@@ -481,7 +481,7 @@ nav ul,nav ol{
               <a href="#" class="side_menu_sub_link_1">Money</a>
            
              </span>
-               <a [class]="visible ? 'pink' : 'gray'" [text]="visible ? 'Less' : 'More &#709;'" on="tap:AMP.setState({visible: !visible})" class="side_menu_sub_link_1 gray">More &#709;</a>
+               <a [class]="visible ? 'pink' : 'gray'" [text]="visible ? 'Less' : 'More'" on="tap:AMP.setState({visible: !visible})" class="side_menu_sub_link_1 gray">More</a>
             </div>
 
   
@@ -490,6 +490,11 @@ nav ul,nav ol{
             <hr class="style1">
             <hr class="style1">
 
+```
+### Add External fontawesome stylesheet inside the ```<head></head>``` tags:
+```
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
 ```
 ### Add classes within ```<style amp-custom></style>``` tags:
 ```
@@ -557,6 +562,17 @@ hr.style1
     color:gray;
     text-decoration: none;
     
+  }
+  .gray:after
+  {
+    padding-top: 0px;
+    padding-left: 3px;
+    display: inline-block;
+    color:gray;
+    text-decoration: none !important;
+    content:'\f107';
+    font-family: Fontawesome; 
+    font-size:20px; 
   }
 ```
 # Step 6: Design Section 3
