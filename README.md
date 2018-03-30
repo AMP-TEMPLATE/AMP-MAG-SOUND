@@ -31,7 +31,7 @@ Steps | Title
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <link rel="canonical" href="https://sound-json.firebaseapp.com/">
 <script custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js" async></script>
-<script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
+<script custom-element="amp-sidebar" src="amp-sidebar-0.1.js" async></script>
 <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async></script>
 <script src="https://cdn.ampproject.org/v0.js" async></script>
 
