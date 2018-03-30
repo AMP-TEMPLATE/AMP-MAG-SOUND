@@ -148,25 +148,25 @@ nav ul,nav ol{
         </a>
       </li>
     </ul>
- 
-    <button class="menu-burger" on='tap:sidebar1.toggle'>
-      <span class="menu-burger_icon"></span>
-    </button>
+ <script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
+
+    
+<div class="container12" onclick="myFunction(this)" on='tap:sidebar1.toggle'>
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+    
 
   </nav>
 </header>
 
 <amp-sidebar class="menu" layout="nodisplay" id="sidebar1">
-  <div>
-  <amp-img class="amp-close-image cross-btn"
-  src="img/test.png"
-  width="60"
-  height="60"
-  alt="close sidebar"
-  on="tap:sidebar1.close"
-  role="button"
-  tabindex="0"></amp-img>
-</div>
+ 
   <amp-accordion disable-session-states class="top_padding_20">
     <section>
       <h2 class="sidebarstyle padding_120 padding_15">Home</h2>
@@ -352,66 +352,41 @@ nav ul,nav ol{
   display: inline;
   padding-bottom: 6px;
 }
-.menu-burger{
-  background-color:#121212;
-  top:1.5rem;
-  -webkit-box-shadow:0 0 0 0.0625rem rgba(0,0,0,0.08);
-  box-shadow:0 0 0 0.0625rem rgba(0,0,0,0.08);
-  color:#e9eff1;
-  cursor:pointer;
-  height:2.5rem;
-  min-width:2.5rem;
-  position:absolute;
-  border:0;
-  -webkit-border-radius:50%;
-  border-radius:50%;
-  outline:none;
-  right:0.3125rem
+.bar1, .bar2, .bar3 {
+    width: 21px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px auto;
+    transition: 0.4s;
+    text-align: center;
 }
-@media (min-width: 22.5em){
-  .menu-burger{
-    bottom:-0.375rem;
-    height:3rem;
-    min-width:3rem;
-    top:auto
-  }
+
+.change .bar1 {
+    -webkit-transform: rotate(-42deg) translate(-4px, 4px);
+    transform: rotate(-42deg) translate(-4px, 4px);
 }
-@media (min-width: 30em){
-  .menu-burger{
-    right:3.1875rem
-  }
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(42deg) translate(-5px, -6px);
+    transform: rotate(42deg) translate(-5px, -6px);
 }
-.menu-burger_icon{
-  margin-top:-0.0625rem;
-  right:0;
-  margin-left:auto;
-  margin-right:auto
-}
-.menu-burger_icon,.menu-burger_icon:before,.menu-burger_icon:after{
-  background-color:currentColor;
-  content:'';
-  height:0.125rem;
-  left:0;
-  position:absolute;
-  width:1.25rem
-}
-.menu-burger_icon:before{
-  top:-0.375rem
-}
-.menu-burger_icon:after{
-  bottom:-0.375rem
-}
-.menu{
-  background-color:#385574;
-  color:white;
-  width:80vw;
-}
-.menu div:first-of-type{
-  overflow-y:scroll
-}
-.cross-btn
-{
-  float:right;
+
+.container12 {
+    display: inline-block;
+    cursor: pointer;
+    background-color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    float: right;
+    position: absolute;
+    right: 6px;
+    top: 76px;
+    padding-top: 9px;
+    box-sizing: border-box;
+    z-index: 1000;
 }
 .top_padding_20 {
  margin-top: 20px;
@@ -441,6 +416,15 @@ nav ul,nav ol{
  text-decoration: none;
  color:black;
  font-weight:100;
+}
+amp-sidebar.menu{
+  background-color:#385574;
+  color:white;
+  width:100vw;
+  z-index: 100;
+}
+.menu div:first-of-type{
+  overflow-y:scroll
 }
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 ```
